@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+.sticky {
+    position: fixed;
+    top: -15px;
+    width: 100%;
+    background: #555;
+    padding: 13px 16px;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  #siteTitle{
+    font-family:Franklin Gothic Medium;
+    font-size:5cm;
+    text-align:center;
+    margin-top:0px;
+    padding-top:100px;
+  }
+  .post{
+    float:left;
+    width:60%;
+    border:1px solid black;
+    background-color:white;
+    margin:2px;
+    margin-right:0px;
+  }
+  .form{
+    float:right;
+    border:1px solid black;
+    background-color:white;
+    width:39.6%;
+    margin:2px;
+    margin-left:0px;
+  }
+  .thumbnail{
+    margin-left:40px;
+    height:100%;
+    width:150px;
+  }
+  .img{
+    float: left;
+    width:150px;
+    padding-left:10px;
+  }
+  .review{
+    float: right;
+    width: 73%;
+    font-size:17px;
+    margin-right:50px;
+    text-align:justify;
+    font-family:Franklin Gothic;
+
+  }
+  .post:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .title{
+    margin-left:100px;
+  }
+  .contactusTitle{
+    text-align:center;
+  }
+  input{
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+  }
+  button{
+    float:right;
+    margin:12px 12px;
+    border:1px solid grey;
+    background-color:#008CBA;
+    font-size:16px;
+  }
+  body{
+    background-image:url(./images/background.jpg);
+  }
+
+  #foot a{
+    color:blue;
+    text-decoration:underline;
+  }
+  #foot{
+    font-family:Franklin Gothic;
+    font-weight:bold;
+  }
