@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./java.js"></script>
+    <p>Input on the total bill from the restaurant</p>
+    <label>PHP</label>
+    <input id="num1" placeholder = "Bill amount">
+    <p>Service Quality?</p>
+    <select id = "quality">
+        <option>--Quality Services--</option>
+        <option value="0.3">30%- Excellent</option>
+        <option value = "0.2">20%- Good</option>
+        <option value = "0.15">15%- Average</option>
+        <option value = "0.1">10%- Mediocre</option>
+    </select>
+    <p><br><br><br><br><br>How many people will share the bill?</p>
+    <input id="people"> people</input>
+    <button onclick="computeVal()">Calculate</button>
+    <p>PHP</p>
+    <p><span id = "value">0.00 </span> each </p>
+    
+</body>
+</html>
